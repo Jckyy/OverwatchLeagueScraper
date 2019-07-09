@@ -1,4 +1,5 @@
 # OverwatchLeagueScraper
 Python Scraper
 
-This will hopefully be able to take teams and spew out the players in the team as well as a few stats.
+Takes OWL team name or abbreviation and spews out players on the roster.
+Hopefully will spew out stats in the future.
