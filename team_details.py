@@ -1,6 +1,5 @@
 # TODO player search with stats
 import requests
-from bs4 import BeautifulSoup
 import json
 
 web_page = requests.get("https://api.overwatchleague.com/teams?expand=team.content&locale=en_US").json()
@@ -44,7 +43,7 @@ if len(user_input) < 4:
         print("The players on the {} are: {}".format(team_dictionary_abb[user_input], result))
 else:
         result = teams_players[user_input]
-        print("The player on the {} are : {}".format(user_input, result))
+        print("The players on the {} are : {}".format(user_input, result))
 
 # print(team_dictionary)
 
